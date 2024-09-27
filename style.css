@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.s{
+    color: goldenrod;
+    position: absolute;
+    top : 30%;
+    left:47%;
+    animation: beat .9s infinite;
+}
+.r{
+    color: goldenrod;
+    position: absolute;
+    top : 60%;
+    left:47%  ;
+    animation: beat .9s infinite;
+}
+.heart{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+i{
+    color : #000;
+    font-size: 90px;
+    animation: beat .9s infinite;
+    text-shadow: 
+    0 0 5px red,
+    0 0 45px red,
+    0 0 90px red;
+}
+@keyframes beat {
+    0%{
+        transform: scale(1);
+    }
+    20%{
+        transform: scale(1.15);
+    }
+    40%{
+        transform: scale(1.4);
+    }
+
+}
+
+    
